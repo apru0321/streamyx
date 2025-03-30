@@ -77,7 +77,6 @@ export type ContentSource = {
   headers?: Record<string, string>;
   http2?: boolean;
   type?: 'video' | 'audio' | 'subtitle' | 'any';
-  audioLanguage?: string;
   audioType?: string;
   subtitles?: any[];
   drm?: DrmConfig;
